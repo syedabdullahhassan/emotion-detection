@@ -10,7 +10,7 @@ import logging
 
 # logging configuration
 logger = logging.getLogger('data_transformation')
-logger.setLevel('DEBUG')
+logger.setLevel('')
 
 console_handler = logging.StreamHandler()
 console_handler.setLevel('DEBUG')
